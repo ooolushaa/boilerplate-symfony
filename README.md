@@ -26,6 +26,11 @@ Put your **pass phrase** to **.env** file
 JWT_PASSPHRASE=your-pass-phrase
 ```
 
+#### Install
+```
+composer install
+```
+
 #### Run migration
 ```
 php bin/console doctrine:migrations:migrate
